@@ -1,7 +1,7 @@
-import { NextPage } from 'next';
+  import { NextPage } from 'next';
 import Head from 'next/head';
-import ExcelUploader from '../components/excel/ExcelUploader';
-import Layout from '../components/layout';
+import ExcelUploader from '@/components/excel/ExcelUploader';
+import Layout from '@/components/Layout/Layout';
 
 const Page: NextPage = () => {
   return (

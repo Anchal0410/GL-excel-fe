@@ -6,6 +6,7 @@ import PreviewTable from './PreviewTable';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { api } from '@/lib/api';
 
 type UploadStatus = 'idle' | 'uploading' | 'success' | 'error';
 
